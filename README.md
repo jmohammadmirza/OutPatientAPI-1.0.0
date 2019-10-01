@@ -8,9 +8,15 @@ Tools used in App  Development:
 ===============================
 1. Spring Tool Suite
 2. Postman
+3. Maven
+4. Swagger
+
+Tech Stack
+===========
+1. Spring boot
+2. MongoDB (No SQL database)
 3. Java 8
-4. Maven
-5. Swagger
+4. Tomcat embedded server 
 
 REST API swagger UI screenshot
 ==============================
