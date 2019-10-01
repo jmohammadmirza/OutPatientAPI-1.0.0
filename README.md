@@ -5,6 +5,8 @@ Basic details ==> https://drive.google.com/open?id=1xfEKL5yk0m6ju0QCUZ0Y_UYpM7tO
 
 Api details ==> https://drive.google.com/open?id=1JvrwrNz0U6xhst7ETrdWEwOGkaXwKzys
 
+POSTMAN==> https://drive.google.com/file/d/1OUey3TKnpzygNb-vZJ65yWA77o3Cy_GQ/view?usp=sharing
+
 
 Post sample data after building the app to 
 
