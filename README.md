@@ -4,7 +4,7 @@ It is a Spring boot application which translates to a Spring REST API .
 For complete API Doc see the attached Swagger json 
 
 
-Tools USED in App  Development:
+Tools used in App  Development:
 ===============================
 1. Spring Tool Suite
 2. Postman
@@ -12,7 +12,7 @@ Tools USED in App  Development:
 4. Maven
 5. Swagger
 
-REST API SWAGGER UI SCREENSHOT
+REST API swagger UI screenshot
 ==============================
 Basic details ==> https://drive.google.com/open?id=1xfEKL5yk0m6ju0QCUZ0Y_UYpM7tObd3r
 
