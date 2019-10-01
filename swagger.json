@@ -1,0 +1,181 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is Out Patient API which will used by any polyclinic to add the Patient details. which will then be used bu there respective Insurance Company for Claims",
+    "version": "1.0.0",
+    "title": "Swagger OutPatient",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "javedmmirza@outlook.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "localhost:8090",
+  "basePath": "/outpatient",
+  "tags": [
+    {
+      "name": "patientName",
+      "description": "Patient Name"
+    },
+    {
+      "name": "appointmentDate",
+      "description": "When Patient reported to the respective Polyclinic"
+    },
+    {
+      "name": "comments",
+      "description": "any comments and details that can provided for the patient"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/outpatient": {
+      "post": {
+        "tags": [
+          "outpatient"
+        ],
+        "summary": "Add a new outpatient details",
+        "description": "",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "outpatient object that needs to be added ",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/outpatient"
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Please provide a proper data"
+          }
+        }
+      }
+    },
+    "/outpatient/fetch": {
+      "get": {
+        "tags": [
+          "outpatient"
+        ],
+        "summary": "get all outpatient details",
+        "description": "get all outpatient details",
+        "operationId": "outpatient",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "outpatient object that needs to be added ",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/outpatient"
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Please provide a proper data"
+          }
+        }
+      }
+    },
+    "/outpatient/{patientName}": {
+      "get": {
+        "tags": [
+          "outpatient"
+        ],
+        "summary": "get patient by Name",
+        "description": "200 ok",
+        "operationId": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "patientName",
+            "in": "path",
+            "description": "patientName",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/outpatient"
+            }
+          },
+          "400": {
+            "description": "[]"
+          },
+          "404": {
+            "description": "Not found"
+          }
+        },
+        "security": [
+          {
+            "api_key": []
+          }
+        ]
+      }
+    },
+    "/outpatient/{id}": {
+      "delete": {
+        "tags": [
+          "outpatient"
+        ],
+        "summary": "delete patient by id",
+        "description": "200 ok",
+        "operationId": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "patientName",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/outpatient"
+            }
+          },
+          "400": {
+            "description": "[]"
+          },
+          "404": {
+            "description": "Not found"
+          }
+        },
+        "security": [
+          {
+            "api_key": []
+          }
+        ]
+      }
+    }
+  }
+}
