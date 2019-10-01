@@ -15,7 +15,7 @@ public class PatientTrackerApiApplication {
 		SpringApplication.run(PatientTrackerApiApplication.class, args);
 	}
 	
-	 @PostConstruct
+    @PostConstruct
     public void startupApplication() {
         // log startup
 		 LOGGER.info("  ____    _    _   _______   _____               _______   _____   ______   _   _   _______                _____    _____ \n" + 
