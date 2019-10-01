@@ -1,5 +1,5 @@
 # OutPatientAPI-1.0.0
-======================
+
 It is a Spring boot application which transaltes to a Spring REST API .
 For complete API Doc see the attached Swagger json 
 
