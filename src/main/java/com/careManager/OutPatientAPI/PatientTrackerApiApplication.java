@@ -12,11 +12,7 @@ public class PatientTrackerApiApplication {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(PatientTrackerApiApplication.class);
 	
-	    @RequestMapping("/")
-	    @ResponseBody
-	    String home() {
-	      return "Hello World!";
-	    }
+
 	public static void main(String[] args) {
 		SpringApplication.run(PatientTrackerApiApplication.class, args);
 	}
