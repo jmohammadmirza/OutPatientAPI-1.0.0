@@ -5,7 +5,8 @@ For complete API Doc see the attached Swagger json
 
 Deployed to Heroku Spring Boot ==> https://outpatient-api.herokuapp.com/outpatient/fetch
 Deployed to Heroku React js==> https://javed-creative.herokuapp.com/ 
-***It may take some time as it is using the free Dyno
+
+It may take some time as it is using the free Dyno
 
 
 Tools used in App  Development:
