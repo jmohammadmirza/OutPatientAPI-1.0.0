@@ -3,9 +3,10 @@
 It is a Spring boot application which translates to a Spring REST API .
 For complete API Doc see the attached Swagger json 
 
-Deployed to Heroku  ==> https://outpatient-api.herokuapp.com/outpatient/fetch
-It may take some time as it is using the free Dyno
-Use postman for better view
+Deployed to Heroku Spring Boot ==> https://outpatient-api.herokuapp.com/outpatient/fetch
+Deployed to Heroku React js==> https://javed-creative.herokuapp.com/ 
+***It may take some time as it is using the free Dyno
+
 
 Tools used in App  Development:
 ===============================
